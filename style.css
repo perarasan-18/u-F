@@ -16,6 +16,9 @@
         justify-content: space-between;
         align-items: center;
         font-size: 20px;
+        position: sticky;
+        top: 0;
+        background-color: white;
     }
     .section-three{
         gap: 20px;
@@ -34,6 +37,7 @@
         flex-direction: row;
         justify-content:start;
         align-items: center;
+        background-color: transparent;
         
         
     }
@@ -43,6 +47,23 @@
     .section-two input:focus{
         outline: none  ;
     }
+    .my-courses{
+        position: relative;
+        cursor: pointer;
+    }
+    .my-courses-popup{
+        position: absolute;
+        background-color: white;
+        width: 100px;
+        padding: 10px;
+        border: solid black 1px;
+        display: none;
+        z-index: 2;
+    }
+    .my-courses:hover .my-courses-popup{
+        display: block;
+    }
+        
     .catagories{
         display: flex;
         padding: 18px;
@@ -58,10 +79,20 @@
    .image-1{
     width: 100%;
     border: solid grey 1px;
+    position: relative;
 
    }
    .image{
     padding-top: 10px;
+   }
+   .saleimage{
+    background-color: white;
+    border: solid black 2px;
+    width: fit-content;
+    padding: 20px;
+    position: absolute;
+    top: 60%;
+    left: 70%;
    }
    .recommended{
     padding: 10px;
