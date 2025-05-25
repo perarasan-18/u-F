@@ -1,0 +1,128 @@
+    *{
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    .section-one-tittle{
+        color: purple;
+        font-size: larger;
+    }
+    .navbar{
+        display: flex;
+        border-bottom: solid black 1px;
+        padding: 10px;
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 20px;
+    }
+    .section-three{
+        gap: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-two{
+        border: solid black 1px;
+        border-radius: 50px;
+        width: 60%;
+        height: 40px;
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        justify-content:start;
+        align-items: center;
+        
+        
+    }
+    .section-two i{
+        margin-left: 10px;
+    }
+    .section-two input:focus{
+        outline: none  ;
+    }
+    .catagories{
+        display: flex;
+        padding: 18px;
+        justify-content: space-around;
+    }
+    .catagories p{
+        background-color: purple;
+        color: white;
+        padding: 20px;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+   .image-1{
+    width: 100%;
+    border: solid grey 1px;
+
+   }
+   .image{
+    padding-top: 10px;
+   }
+   .recommended{
+    padding: 10px;
+   }
+   .card-1 img,.card-2 img,.card-3 img,.card-4 img,.card-5 img,.card-6 img,.card-7 img,.card-8 img{
+    background-color: bisque;
+    color: black;
+    width: 100%;
+   }
+   .card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 10px;
+    text-align: start;
+    flex-basis: 1;
+   }
+   .card-1,.card-2,.card-3,.card-4,.card-5,.card-6,.card-7,.card-8{
+    border: solid grey 1px;
+    padding: 5px;
+    width: 20%;
+    margin: 5px;
+
+    
+   }
+  
+   .topics-container p{
+    border: solid grey 1px;
+    padding: 10px;
+    font-size: larger;
+    flex-basis: 25%;
+    flex-grow: 1;
+
+
+   }
+   .topics-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+   }
+   .recommended-below{
+    padding: 10px;
+    margin: 10px;
+   }
+   .footer-one{
+    display: flex;
+    padding: 10px;
+   }
+   .footer-two{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px    ;
+   }
+   
+   .footer{
+    background-color: black;
+    color: white;
+
+   }
+   .footer-one p{
+    margin: 20px;
+   }
