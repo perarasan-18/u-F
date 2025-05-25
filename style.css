@@ -75,6 +75,15 @@
         padding: 20px;
         border-radius: 15px;
         font-size: 20px;
+        border: solid purple 1px;
+        cursor: pointer;
+
+    }
+    .catagories p:hover{
+        background-color: transparent;
+        color: purple;
+        border: solid purple 1px;
+        transition: 1s;
     }
    .image-1{
     width: 100%;
@@ -93,7 +102,26 @@
     position: absolute;
     top: 60%;
     left: 70%;
+    animation-name: glow;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
    }
+   @keyframes glow{
+    0%{
+        opacity: 0;
+
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+
+    }
+
+   }
+   
    .recommended{
     padding: 10px;
    }
